@@ -8,6 +8,7 @@ import DashboardPage from "./pages/dashboard";
 import VideoPage from "./pages/videopage";
 import ExamPage from "./pages/exampage";
 import ScorePage from "./pages/scorepage";
+import ProfilePage from "./pages/profilepage";
 
 
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/video" element={<VideoPage />} />
         <Route path="/exam" element={<ExamPage />} />
         <Route path="/score" element={<ScorePage />} />
+         <Route path="/Profile" element={<ProfilePage />} />
         
       </Routes>
     </BrowserRouter>

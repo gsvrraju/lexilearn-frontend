@@ -189,7 +189,7 @@ const EnglishTopics = ({
         onClick={() => unlocked && handleLevelClick(level.level_id)}
         style={{
           background: unlocked ? "#ffffff" : "#e6e6e6",
-          padding: "25px",
+          padding: "35px",
           borderRadius: "18px",
           cursor: unlocked ? "pointer" : "not-allowed",
           opacity: unlocked ? 1 : 0.65,
